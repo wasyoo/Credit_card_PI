@@ -1,0 +1,61 @@
+.card {
+  font-family: sans-serif;
+  padding: 20px;
+  width: 420px;
+  height: 220px;
+  border-radius: 20px;
+  border: 1px solid #000;
+  background: blue;
+  position: relative;
+  margin-right: 20px;
+}
+.title {
+  color: #fff;
+  font-size: 35px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: flex-end;
+}
+.chip {
+  width: 70px;
+  height: 60px;
+  border-radius: 5px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.card_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.card_info {
+  padding: 10px;
+  color: #fff;
+  width: 60%;
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
+.card_number {
+  font-size: 20px;
+  margin: 10px 0;
+  font-family: monospace;
+}
+
+.expiration_date {
+  display: flex;
+  font-size: 18px;
+  font-weight: 200;
+  justify-content: flex-end;
+  margin: 10px 0;
+  height: 20px;
+}
+
+.card_holder {
+  font-weight: 400;
+  font-size: 20px;
+  height: 20px;
+  margin: 10px 0;
+  text-align: left;
+}
